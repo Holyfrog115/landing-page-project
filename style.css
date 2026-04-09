@@ -17,12 +17,25 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
 }
 
 .header {
     background-color: #1F2937;
-    font-size: 24px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
+    flex: auto;
+    padding: 24px 128px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 900;
 }
