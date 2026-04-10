@@ -78,3 +78,10 @@ button {
     width: 480px;
     background-color: gray;
 }
+
+.info {
+    padding: 48px 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
