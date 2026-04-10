@@ -44,8 +44,6 @@ button {
     font-weight: 600;
 }
 
-
-
 .header, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -55,7 +53,6 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
-    flex: auto;
     padding-top: 12px;
     padding-bottom: 24px;
 }
