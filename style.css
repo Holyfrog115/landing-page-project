@@ -28,16 +28,32 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 24px 24rem;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     flex: auto;
-    padding: 24px 128px;
 }
 
 .header .logo {
     font-size: 24px;
     font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-placeholder {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
 }
