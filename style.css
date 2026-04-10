@@ -23,6 +23,12 @@ ul {
     font-weight: 400;
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -31,13 +37,15 @@ body {
 .header, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 24px 24rem;
+    padding: 96px 24rem;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     flex: auto;
+    padding-top: 12px;
+    padding-bottom: 24px;
 }
 
 .header .logo {
@@ -53,7 +61,19 @@ body {
 }
 
 .img-placeholder {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
-    width: 200px;
     background-color: gray;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+    display: flex;
 }
