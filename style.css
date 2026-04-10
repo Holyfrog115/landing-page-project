@@ -10,6 +10,11 @@ html {
     font-family: Roboto, Arial;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -29,10 +34,17 @@ h1 {
     color: #F9FAF8;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 12px 0;
+    padding: 6px 26px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
 }
+
+
 
 .header, .hero {
     background-color: #1F2937;
