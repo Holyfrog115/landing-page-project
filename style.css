@@ -25,6 +25,7 @@ ul {
 
 body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
