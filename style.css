@@ -111,3 +111,12 @@ button {
     max-width: 160px;
     text-align: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 96px 0;
+    padding: 96px 28rem;
+}
