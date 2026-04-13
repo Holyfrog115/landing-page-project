@@ -132,3 +132,22 @@ button {
 .quote-section footer cite {
     font-style: normal;
 }
+
+.cta-box {
+    display: flex;
+    margin: 96px 28rem;
+    background-color: #3882f6;
+}
+
+.cta-text {
+    display: flex;
+    color: #E5E7EB;
+}
+
+.cta-text h2 {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    border: 2px solid #E5E7EB;
+}
