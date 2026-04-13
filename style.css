@@ -45,7 +45,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     margin: 12px 0;
-    padding: 6px 26px;
+    padding: 8px 26px;
     border: none;
     border-radius: 6px;
     font-weight: 600;
@@ -73,10 +73,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 144px;
+    gap: 100px;
 }
 
-.img-placeholder {
+/* .img-placeholder {
     flex: auto;
     display: flex;
     justify-content: center;
@@ -84,6 +84,11 @@ button {
     height: 240px;
     width: 480px;
     background-color: gray;
+} */
+
+#hero-section-img {
+    width: 520px;
+    height: auto;
 }
 
 .info {
