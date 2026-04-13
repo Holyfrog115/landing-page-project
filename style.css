@@ -133,14 +133,23 @@ button {
     font-style: normal;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+    margin: 0 28rem;
+}
+
 .cta-box {
     display: flex;
-    margin: 96px 28rem;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
     background-color: #3882f6;
 }
 
 .cta-text {
     display: flex;
+    flex-direction: column;
     color: #E5E7EB;
 }
 
@@ -150,4 +159,5 @@ button {
 
 .cta-button {
     border: 2px solid #E5E7EB;
+    margin: 0;
 }
