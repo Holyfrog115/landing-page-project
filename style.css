@@ -118,5 +118,17 @@ button {
     font-size: 36px;
     font-weight: 300;
     margin: 96px 0;
-    padding: 96px 28rem;
+    padding: 96px 35rem;
+    font-style: italic;
+}
+
+.quote-section footer {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    font-style: normal;
+}
+
+.quote-section footer cite {
+    font-style: normal;
 }
